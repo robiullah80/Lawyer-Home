@@ -1,0 +1,108 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+body{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  line-height: 1.7em;
+
+} 
+h1, h2, h3, h4, h5, h6,{
+ font-family: 'Montserrat', sans-serif;
+
+
+}img{
+  max-width: 100%;
+  height: auto;
+}
+a{
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: none;
+}
+
+
+
+/* global css code here */
+.title{
+  width: 100%;
+}
+.title h1{
+   font-size: 48px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.4em;
+  color: #28377e;
+  margin: 0px 0px 20px;
+}
+
+
+/*header code start*/
+.header{
+  width: 100%;
+  background: #fff;
+}
+.header .navbar-expand-lg .navbar-nav .nav-link{
+  font-size: 14px;
+  font-weight: 600px;
+  text-transform: uppercase;
+  margin: 0px 0px 0px 20px;
+  color: #28377e;
+  transition: 2s;
+
+
+}
+.header .navbar-expand-lg .navbar-nav .nav-link:hover{
+  color: #f15d2b;
+}
+.header .navbar-expand-lg .navbar-nav .nav-link:focus{
+ color: #f15d2b; 
+}
+/* slider code start */
+
+.section{
+  width: 100%;
+  padding: 35px 0px;
+  background: url(../images/sliderbd.png) center top no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+.inner-slider{
+  width: 100%;
+  padding: 150px 0px 50px;
+}
+.inner-slider h1{
+  font-size: 64px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.4em;
+  color: #fff;
+}
+.inner-slider .arrow{
+  width: 100%;
+  padding: 170px 0px 0px;
+}
+.inner-slider .arrow .fa{
+  font-size: 35px;
+  color: #fff;
+
+}
+.about-us{
+  width: 100%;
+  padding: 80px 0px;
+}
+.about-us .title{
+  margin: 50px 0px 0px;
+}
+.about-us .title p{
+  font-size: 14px;
+  line-height: 1.4em;
+  color: #b0b0b1;
+}
+.inner-img{
+  width: 100%;
+  text-align: right;
+}
